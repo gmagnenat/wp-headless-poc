@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-wp-2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-wp-2",
+  "author": "Gwenaël Magnenat",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.11.1",
+    "gatsby-plugin-image": "^2.11.1",
+    "gatsby-plugin-react-helmet": "^5.11.0",
+    "gatsby-plugin-sharp": "^4.11.1",
+    "gatsby-source-filesystem": "^4.11.1",
+    "gatsby-source-wordpress": "^6.11.1",
+    "gatsby-transformer-sharp": "^4.11.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  }
+}
