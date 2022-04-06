@@ -26,9 +26,7 @@ const featuredPost = (props) => {
 					></GatsbyImage>
 				</div>
 				<div className='mb-4 text-indigo-600'>
-					<span>6 min read</span>
-					<span className='mx-2'>–</span>
-					<span>10 July 2022</span>
+					<span>{featuredPost.date}</span>
 				</div>
 				<h2 className='text-4xl leading-8 mb-6 font-heading'>
 					{featuredPost?.title}

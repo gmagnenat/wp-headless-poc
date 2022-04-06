@@ -21,9 +21,7 @@ const cardPost = (props) => {
 					</div>
 					<div className='px-4 mb-3'>
 						<div className='mb-2 text-indigo-600'>
-							<span>6 min read</span>
-							<span className='mx-2'>.</span>
-							<span>10 July 2022</span>
+							<span>{post.date}</span>
 						</div>
 						<h3 className='text-xl font-heading'>{post.title}</h3>
 					</div>

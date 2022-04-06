@@ -49,13 +49,14 @@ export default IndexPage;
 
 export const pageQuery = graphql`
 	query {
-		allWpPost(sort: { fields: [date] }) {
+		allWpPost(sort: { fields: date, order: DESC }) {
 			nodes {
 				id
 				title
 				slug
 				excerpt
 				link
+				date(formatString: "D MMMM YYYY", locale: "Fr")
 				featuredImage {
 					node {
 						localFile {
