@@ -13,7 +13,7 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-wordpress',
 			options: {
-				url: 'https://gwm.cloud29.ch/graphql',
+				url: 'http://gatsbywp.local/graphql',
 			},
 		},
 		'gatsby-plugin-postcss',
